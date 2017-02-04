@@ -103,7 +103,7 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
     var splitString = switchText[i].innerHTML.split('')
     var reverseString = splitString.reverse()
     var newString = reverseString.join('')
-    switchText.innerHTML = newString
+    switchText[i].innerHTML = newString
   }
 
 
