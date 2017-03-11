@@ -18,9 +18,8 @@ document.querySelector("#double button").addEventListener('click',function(){
 document.querySelector("#color-circle button").addEventListener('click',function(){
   // TASK #3
 
+ 
   var changeColor = document.querySelector('#circle-bw');
-  var changeColor = window.getComputedStyle(getColor);
-
   if (changeColor.style.background === "white") {
     changeColor.style.background = 'black';
   } else {
